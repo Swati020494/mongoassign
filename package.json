@@ -1,0 +1,37 @@
+{
+  "name": "mongoassign",
+  "version": "1.0.0",
+  "description": "An assignment using mongo db, passport, etc",
+  "main": "app.js",
+  "scripts": {
+    "test": "start/nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Swati020494/mongoassign.git"
+  },
+  "author": "Swati Mukherjee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Swati020494/mongoassign/issues"
+  },
+  "homepage": "https://github.com/Swati020494/mongoassign#readme",
+  "dependencies": {
+    "body-parser": "^1.10.2",
+    "chai": "~1.8.1",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.3.3",
+    "debug": "^2.1.1",
+    "express": "^4.16.2",
+    "express-session": "^1.10.1",
+    "jade": "^1.9.1",
+    "mocha": "~1.14.0",
+    "mongoose": "^4.4.1",
+    "morgan": "^1.5.1",
+    "passport": "^0.2.1",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^1.0.0",
+    "serve-favicon": "^2.2.0",
+    "should": "~2.1.0"
+  }
+}
